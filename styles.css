@@ -1,0 +1,185 @@
+/* universal */
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+/* header */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 1, 97);
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    color: rgb(50, 90, 250);
+    
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(153, 51, 0);
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    margin-right: 0.9rem;
+    font-weight: bold;
+}
+
+/* main */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    background-image: url(./keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.content h2 {
+    margin-left: 0.5rem;
+}
+
+.reason {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #f2f2f2;
+    
+}
+
+.text {
+    color: rgb(153, 51, 0);
+
+}
+
+/* section */
+.people {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    background-color: brown;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+/* images */
+.runners {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding-bottom: 1.5rem;
+    
+
+}
+
+
+.runners img {
+    width: 80%;
+    border-radius: 2rem;   
+       
+}
+
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container figcaption {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* note */
+
+  .note  {
+    font-size: 3rem;
+    padding-top: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: burlywood;
+  }
+
+  button {
+    background-color: burlywood;
+    border-color: burlywood;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-weight: bold;  
+      
+  }
+
+  .button {
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .background {
+    background-image: url(./back2.jpg);
+    background-size: cover;
+    padding-bottom: 2rem;
+  }
+
+  .footer {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(24, 1, 97);
+    color: rgb(50, 90, 250);
+    font-weight: bold;
+    
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .note {
+        font-size: 1.2rem;
+    }
+
+    .runners img {
+        width: 85%;
+        border-radius: 0.5rem;
+    }
+
+    .image-container figcaption {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .heading {
+        display: flex;
+        flex-direction: column;
+        
+    
+      }
+
+      .nav {
+        margin-right: 2.4rem;
+        font-size: 0.8rem;
+      }
+
+  }
